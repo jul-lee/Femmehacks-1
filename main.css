@@ -1,0 +1,42 @@
+#about{
+	color: blue;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+p{
+	color: red;
+	font-weight: bold;
+	font-size: 42px;
+	font-family: 'Century Gothic', serif;
+}
+body{
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Gotham Bold', serif;
+	background-color: #bf0404;
+	font-weight: bold;
+	text-align: left;
+	font-size: 40px;
+	padding-top: 5%;
+	padding-left: 5%;
+	color: white;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: left;
+	font-family: helvetica;
+	font-size: 25px;
+	padding-left: 5%;
+	color: #bf0404;
+	background-color: white;
+	margin-top: -30px;
+	font-style: italic;
+}
+
+#definition {
+	font-style: italic;
+	font-size: 20px;
+}
