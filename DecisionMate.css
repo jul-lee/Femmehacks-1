@@ -25,7 +25,7 @@ ul{
 	text-align: center;
 }
 ul li{
-	margin-bottom: 25px;
+	margin-bottom: 8px;
 }
 h3 {
 	font-weight: bold;
@@ -49,24 +49,24 @@ h3 {
 nav{
 	font-family:'Century Gothic', serif;
 	background: #F7F7F7;
-	border-bottom: 1px solid pink;
-
+	border-bottom: 10px #e01a1a;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	position: fixed;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	top: 0;
 }
 .menu li{
 	display: inline-block;
+	padding: 0;
 		
 }
 .menu li a{
 	display: block;
 	padding: 5px 15px;
-	background: #f76565;
+	background: #e01a1a;
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
