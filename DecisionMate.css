@@ -1,11 +1,14 @@
-#about {
+#about{
 	color: blue;
+	font-weight: bold;
+	font-family: sans-serif;
 }
 p{
-	color: pink;
+	color: red;
 	font-weight: bold;
 	font-size: 42px;
 	font-family: 'Century Gothic', serif;
+}
 body{
-	background-color: grey;
+	background-color: white;
 }
