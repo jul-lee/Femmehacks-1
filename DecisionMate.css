@@ -1,26 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
 #about{
 	color: blue;
 	font-weight: bold;
 	font-family: sans-serif;
 }
-p{
-	color: red;
+
+
+body{
+	background-color: white;
+	margin: 0;
+	margin-top: 80px;
+}
+
+.container {
+	max-width: 750px; 
+	margin: auto;
+}
+ul{
+	padding:0;
+	list-style-type: none;
+	text-align: center;
+}
+ul li{
+	margin-bottom: 25px;
+}
+h3 {
 	font-weight: bold;
-	font-size: 42px;
+	text-align: left;
+	font-family: helvetica;
+	font-size: 25px;
+	padding-left: 5%;
+	color: #bf0404;
+	font-style: italic;
+}
+
+#definition {
+	font-style: italic;
+	font-size: 20px;
+}
+#about{
+	color: blue;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+nav{
+	font-family:'Century Gothic', serif;
+	background: #F7F7F7;
+	border-bottom: 1px solid pink;
+
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: fixed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	top: 0;
+}
+.menu li{
+	display: inline-block;
+		
+}
+.menu li a{
+	display: block;
+	padding: 5px 15px;
+	background: #f76565;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.menu li a:hover {
+	background: tomato;
+
+}
+p{
+	color: #222;
+	font-weight: bold;
+	font-size: 16px;
 	font-family: 'Century Gothic', serif;
 }
 body{
 	background-color: white;
 }
 
-h1 {
-	font-family: helvetica, serif;
-	background-color: #bf0404;
+header {
+	padding-left: 5%;
+ 	padding-right: 5%;
+ 	background-color: #bf0404;
+}
+
+h1 { 
+	font-family: 'Sansita', sans-serif;
 	font-weight: bold;
 	text-align: left;
 	font-size: 40px;
-	padding-top: 5%;
-	padding-left: 5%;
 	color: white;
 }
 
@@ -39,4 +114,11 @@ h3 {
 #definition {
 	font-style: italic;
 	font-size: 20px;
+}
+
+img, iframe {
+	max-width: 100%;
+	overflow: hidden;
+	margin:auto
+	text-align:center;
 }
