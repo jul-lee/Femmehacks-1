@@ -27,9 +27,19 @@ ul{
 	padding:0;
 	list-style-type: none;
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;;
+	font-weight: bold;
+	color:white;
 }
-ul li{
-	margin-bottom: 8px;
+h4{
+	font-family: 'Quicksand', sans-serif;;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+	font-size: 24px;
+}
+main ul li{
+	margin-bottom: 45px;
 }
 h3 {
 	font-weight: bold;
@@ -40,6 +50,7 @@ h3 {
 	color: #bf0404;
 	font-style: italic;
 }
+
 
 #definition {
 	font-style: italic;
@@ -52,7 +63,7 @@ h3 {
 }
 nav{
 	font-family: 'Quicksand', sans-serif;
-	background: #F7F7F7;
+	background: rgba(255,255,255,0.2);
 	border-bottom: 10px #e01a1a;
 	display: flex;
 	justify-content: space-around;
@@ -61,6 +72,7 @@ nav{
 	padding-top: 5px;
 	padding-bottom: 0px;
 	top: 0;
+
 }
 .menu li{
 	display: inline-block;
@@ -70,17 +82,17 @@ nav{
 .menu li a{
 	display: block;
 	padding: 5px 15px;
-	background: #e01a1a;
+	background: #100f0f;
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
 }
 .menu li a:hover {
-	background: tomato;
+	background: #9c8e8e;
 
 }
 p{
-	color: #222;
+	color: white;
 	font-weight: bold;
 	font-size: 16px;
 	font-family: 'Quicksand', sans-serif;
@@ -90,16 +102,16 @@ body{
 }
 
 header {
-	padding-left: 5%;
- 	padding-right: 5%;
- 	background-color: #bf0404;
+	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	
 }
 
 h1 { 
-	font-family: 'Quicksand', sans-serif;;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 	text-align: left;
-	font-size: 40px;
+	font-size: 60px;
 	color: white;
 }
 
@@ -126,4 +138,8 @@ img, iframe {
 	margin:auto
 	text-align:center;
 	border-color: white;
+}
+.textbox{
+	background:rgba(0,0,0,.6);
+	padding: 7px;
 }
