@@ -109,7 +109,7 @@ header {
 
 h1 { 
 	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
+	font-weight: unset;
 	text-align: left;
 	font-size: 60px;
 	color: white;
@@ -138,6 +138,7 @@ img, iframe {
 	margin:auto
 	text-align:center;
 	border-color: white;
+	
 }
 .textbox{
 	background:rgba(0,0,0,.6);
